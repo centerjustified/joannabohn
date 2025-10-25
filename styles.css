@@ -105,6 +105,15 @@ header {
     line-height: 1.6;
 }
 
+.service-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: block;
+}
+
 /* About Section */
 .about {
     padding: 4rem 0;
