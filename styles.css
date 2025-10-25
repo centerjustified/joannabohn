@@ -80,7 +80,7 @@ header {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); /* max 2 columns */
     gap: 2rem;
     margin-top: 2rem;
 }
