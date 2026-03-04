@@ -364,7 +364,8 @@ a:hover {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-medium);
     object-fit: cover;
-    aspect-ratio: 3 / 3.5;
+    aspect-ratio: 1 / 1;
+    object-position: top center;
 }
 
 .about-text h2 {
