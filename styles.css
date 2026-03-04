@@ -359,13 +359,20 @@ a:hover {
     align-items: start;
 }
 
+.about-photo {
+    overflow: hidden;
+    border-radius: var(--radius-lg);
+}
+
 .about-photo img {
     width: 100%;
-    border-radius: var(--radius-lg);
     box-shadow: var(--shadow-medium);
     object-fit: cover;
     aspect-ratio: 1 / 1;
-    object-position: top center;
+    object-position: center 12%;
+    transform: scale(2.4);
+    transform-origin: center 18%;
+    border-radius: var(--radius-lg);
 }
 
 .about-text h2 {
